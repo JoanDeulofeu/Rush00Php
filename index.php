@@ -49,7 +49,24 @@
 
 			</UL>
 			<UL style="position:relative;float:right;padding: -5px 0px 0px 0px;">
-				<LI > <A style="padding: 15px 30px 0px 0px;" HREF="create.html"><IMG id="id_login" style="width:37px;height:37px;" SRC="img/noun_Login_653126.svg"></A>
+				<LI >
+					<A style="padding: 15px 30px 0px 0px;" HREF="login.html">
+						<IMG id="id_login" style="width:37px;height:37px;" SRC="img/noun_adduser.svg">
+					</A>
+				</LI>
+			</UL>
+			<UL style="position:relative;float:right;padding: -5px 0px 0px 0px;">
+				<LI >
+					<A style="padding: 15px 30px 0px 0px;" HREF="login.html">
+						<IMG id="id_login" style="width:37px;height:37px;" SRC="img/noun_Login.svg">
+					</A>
+				</LI>
+			</UL>
+			<UL style="position:relative;float:right;padding: -5px 0px 0px 0px;">
+				<LI >
+					<A style="padding: 15px 30px 0px 0px;" HREF="login.html">
+						<IMG id="id_login" style="width:37px;height:37px;" SRC="img/noun_basket.svg">
+					</A>
 				</LI>
 			</UL>
 		</NAV>
