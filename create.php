@@ -7,7 +7,6 @@ $dejavu = 0;
 
 if (isset($_POST["submit"]) && isset($_POST["passwd"]) && isset($_POST["login"]) && $_POST["submit"] == "OK")
 {
-	header('Location: login.html');
 	$psw = hash('whirlpool', $_POST["passwd"]);
 	if (file_exists($path) === FALSE) //si dossier existe pas
 		mkdir($path, 0777, true);
@@ -45,3 +44,9 @@ if (isset($_POST["submit"]) && isset($_POST["passwd"]) && isset($_POST["login"])
 		echo $error;
 }
 ?>
+<HTML>
+	<HEAD>
+		<script>history.back();</script>
+	</HEAD>
+	<BODY></BODY>
+</HTML>

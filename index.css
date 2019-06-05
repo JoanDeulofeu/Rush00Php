@@ -71,48 +71,48 @@ nav > ul > li:hover a {
 .onglet li:hover a {
 	color: #2a2828;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 20px;
 }
 
-.entree:hover {
+.vet:hover {
 	border-top: 5px solid rgb(82, 154, 73);
 	background-color: rgba(82, 154, 73, 0.15);
 }
-.plat:hover {
+.bestsellers:hover {
 	border-top: 5px solid rgb(162, 61, 61);
 	background-color: rgba(162, 61, 61, 0.15);
 }
-.dessert:hover {
+.summer:hover {
 	border-top: 5px solid rgb(218, 203, 66);
 	background-color: rgba(218, 203, 66, 0.15);
 }
-.boisson:hover {
+.winter:hover {
 	border-top: 5px solid rgb(79, 132, 187);
 	background-color: rgba(79, 132, 187, 0.15);
 }
 
-.entree:hover .onglet{
+.vet:hover .onglet{
 	background-color: rgb(109, 162, 102);
 }
-.plat:hover .onglet{
+.bestsellers:hover .onglet{
 	background-color: rgb(163, 87, 87);
 }
-.dessert:hover .onglet{
+.summer:hover .onglet{
 	background-color: rgb(221, 210, 110);
 }
-.boisson:hover .onglet{
+.winter:hover .onglet{
 	background-color: rgb(114, 150, 186);
 }
 
-.entree:hover .onglet li:hover {
+.vet:hover .onglet li:hover {
 	background-color: rgb(82, 154, 73);
 }
-.plat:hover .onglet li:hover {
+.bestsellers:hover .onglet li:hover {
 	background-color: rgb(162, 61, 61);
 }
-.dessert:hover .onglet li:hover {
+.summer:hover .onglet li:hover {
 	background-color: rgb(218, 203, 66);
 }
-.boisson:hover .onglet li:hover {
+.winter:hover .onglet li:hover {
 	background-color: rgb(79, 132, 187);
 }

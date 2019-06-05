@@ -1,7 +1,7 @@
 <?PHP
 function auth($login, $passwd)
 {
-	$path = "../private";
+	$path = "./private";
 	$pathpass = $path . "/passwd";
 	$error = "ERROR\n";
 	$ok = "OK\n";

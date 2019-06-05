@@ -1,5 +1,5 @@
 <?PHP
-include ('auth.php');
+include ("auth.php");
 
 $path = "./private";
 $passwd = $path . "/passwd";
@@ -15,8 +15,9 @@ if (isset($_POST["passwd"]) && isset($_POST["login"]))
 		$_SESSION[loggued_on_user] = $_POST["login"];
 		echo '	<HTML>
 					<BODY>
-						<iframe name="chat" src="chat.php" height="550" width="100%"></iframe>
-						<iframe name="speak" src="speak.php" height="50" width="100%"></iframe>
+						<H1>Tu es connecté !</H1>
+						<BR />
+						<A HREF="index.php">Retour</A>
 					</BODY>
 				</HTML>';
 	}
@@ -26,7 +27,7 @@ if (isset($_POST["passwd"]) && isset($_POST["login"]))
 		echo '	<HTML>
 					<BODY>
 						<BR />
-						<A HREF="login.html">Retour</A>
+						<A HREF="index.php">Retour</A>
 					</BODY>
 				</HTML>';
 		$_SESSION[loggued_on_user] = "";

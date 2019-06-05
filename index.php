@@ -1,74 +1,32 @@
-<?PHP
-
-?>
-
 <HTML>
 	<HEAD>
 		<TITLE>Rush00</TITLE>
 		<link rel="stylesheet" HREF="index.css"/>
 	</HEAD>
 	<BODY style="background-color:#fafafa;">
-		<NAV>
-			<UL>
-				<LI class="entree"> <A HREF="#">ENTREES</A>
-					<UL class="onglet">
-						<LI><A HREF="#">Salade grec</A></LI>
-						<LI><A HREF="#">Macedoine de legumes</A></LI>
-						<LI><A HREF="#">Soupe aux choux</A></LI>
-						<LI><A HREF="#">Assortiments de tapas</A></LI>
-					</UL>
-				</LI>
+	<?PHP include ('menu.php'); ?>
+	<img style="float:left; margin:0 50px 0 50px;position:fixed;left:25%;top:3%;width:900px;height:300px;" src="img/Shoprush.png">
 
-				<LI class="plat"> <A HREF="#">PLATS</A>
-					<UL class="onglet">
-						<LI><A HREF="#">Entrecote 800g</A></LI>
-						<LI><A HREF="#">Paëlla catalane</A></LI>
-						<LI><A HREF="#">Poulet roti antillais</A></LI>
-						<LI><A HREF="#">Tartiflette savoyarde</A></LI>
-					</UL>
-				</LI>
+	<DIV style="width:22%;height:50%;position:fixed;left:4%;top:27%;background-color:#d6d6d6;box-shadow: 4px 4px 6px #a6a1a1;border-width:2px;border-color:black">
+		<H1 align="center">T-shirt noir</H1>
+			<a href="http://localhost:8100/t-shirts.php"><img style="float:left; margin:0 0px 0 46px;width:350px;height:400px;" src="img/T-Shirt noir.jpg"></a>
 
-				<LI class="dessert"> <A HREF="#">DESSERTS</A>
-					<UL class="onglet">
-						<LI><A HREF="#">Tarte tatin destructurée</A></LI>
-						<LI><A HREF="#">Mousse au chocolat</A></LI>
-						<LI><A HREF="#">Ile flottante</A></LI>
-						<LI><A HREF="#">Banana split</A></LI>
-					</UL>
-				</LI>
+	</DIV>
 
-				<LI class="boisson"> <A HREF="#">BOISSONS</A>
-					<UL class="onglet">
-						<LI><A HREF="#">Coca caramel</A></LI>
-						<LI><A HREF="#">Fanta citron</A></LI>
-						<LI><A HREF="#">FuzeTea peche blanche</A></LI>
-						<LI><A HREF="#">Eau minerale</A></LI>
-					</UL>
-				</LI>
+	<DIV style="width:22%;height:50%;position:fixed;left:27%;top:27%;background-color:#d6d6d6;box-shadow: 4px 4px 6px #a6a1a1;border-width:2px;border-color:black">
+		<H1 align="center">Pull rose</H1>
+		<a href="http://localhost:8100/pulls.php"><img style="float:left; margin:0 0px 0 46px;width:350px;height:400px;" src="img/Pull rose.jpg"></a>
+		<BR />
+	</DIV>
 
+	<DIV style="width:22%;height:50%;position:fixed;left:50%;top:27%;background-color:#d6d6d6;box-shadow: 4px 4px 6px #a6a1a1;border-width:2px;border-color:black">
+		<H1 align="center">Pantalon bleu</H1>
+		<a href="http://localhost:8100/pantalons.php"><img style="float:left; margin:0 0px 0 46px;width:350px;height:400px;" src="img/Pantalon bleu.jpg"></a>
+		<BR />
+	</DIV>
 
-			</UL>
-			<UL style="position:relative;float:right;padding: -5px 0px 0px 0px;">
-				<LI >
-					<A style="padding: 15px 30px 0px 0px;" HREF="login.html">
-						<IMG id="id_login" style="width:37px;height:37px;" SRC="img/noun_adduser.svg">
-					</A>
-				</LI>
-			</UL>
-			<UL style="position:relative;float:right;padding: -5px 0px 0px 0px;">
-				<LI >
-					<A style="padding: 15px 30px 0px 0px;" HREF="login.html">
-						<IMG id="id_login" style="width:37px;height:37px;" SRC="img/noun_Login.svg">
-					</A>
-				</LI>
-			</UL>
-			<UL style="position:relative;float:right;padding: -5px 0px 0px 0px;">
-				<LI >
-					<A style="padding: 15px 30px 0px 0px;" HREF="login.html">
-						<IMG id="id_login" style="width:37px;height:37px;" SRC="img/noun_basket.svg">
-					</A>
-				</LI>
-			</UL>
-		</NAV>
-	</BODY>
-</HTML>
+	<DIV style="width:22%;height:50%;position:fixed;left:73%;top:27%;background-color:#d6d6d6;box-shadow: 4px 4px 6px #a6a1a1;border-width:2px;border-color:black">
+		<H1 align="center">Short blanc</H1>
+			<a href="http://localhost:8100/shorts.php"><img style="float:left; margin:0 0px 0 46px;width:350px;height:400px;" src="img/Short blanc.jpg"></a>
+	</DIV>
+</BODY>
